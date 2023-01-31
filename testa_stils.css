@@ -1,0 +1,25 @@
+body{
+    /*Gradient pārēju ģenerātors: https://cssgradient.io/*/
+    background: rgb(0, 255, 21);
+    background: linear-gradient(90deg, rgb(0, 217, 255) 0%, rgb(255, 0, 212) 35%, rgba(0,212,255,1) 100%);
+}
+.wrapper{
+    width: 600px;
+    height: 400px;
+    background-color: rgb(255, 0, 0);
+    border: 2px solid rgb(0, 255, 0);
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.chataZinas{
+    background-color: rgb(255, 0, 234);
+    height: 300px;
+    margin: 5px;
+    border: 1px solid rgb(255, 0, 255);
+    border-radius: 5px;
+    color:rgb(0, 0, 0);
+    padding: 5px;
+    /*parāda ritjoslu, kad čata ziņas pārsniedz bloka izmēru*/
+    overflow-y: scroll;
+}
