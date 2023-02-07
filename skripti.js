@@ -8,5 +8,8 @@ var zina =document.querySelector("#zina");
 
 function sutitZinu(){
     console.log("Poga Darbojas");
-    console.log("ziņu ir: "+zina.value");
+    console.log("ziņu ir: "+zina.value);
+
+    logs.innerHTML = logs.innerHTML + "</br>"+zina.value;
+    
 }
